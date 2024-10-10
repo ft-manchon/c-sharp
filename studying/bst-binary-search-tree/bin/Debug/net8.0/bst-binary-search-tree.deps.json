@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "bst-binary-search-tree/1.0.0": {
+        "runtime": {
+          "bst-binary-search-tree.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "bst-binary-search-tree/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\obj\Debug\net8.0\bst-binary-search-tree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\obj\Debug\net8.0\bst-binary-search-tree.AssemblyInfoInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\obj\Debug\net8.0\bst-binary-search-tree.AssemblyInfo.cs
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\obj\Debug\net8.0\bst-binary-search-tree.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\obj\Debug\net8.0\bst-binary-search-tree.sourcelink.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\bin\Debug\net8.0\bst-binary-search-tree.exe
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\bin\Debug\net8.0\bst-binary-search-tree.deps.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\bin\Debug\net8.0\bst-binary-search-tree.runtimeconfig.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\bin\Debug\net8.0\bst-binary-search-tree.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\bin\Debug\net8.0\bst-binary-search-tree.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\obj\Debug\net8.0\bst-binary-search-tree.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\obj\Debug\net8.0\refint\bst-binary-search-tree.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\obj\Debug\net8.0\bst-binary-search-tree.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\obj\Debug\net8.0\bst-binary-search-tree.genruntimeconfig.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\bst-binary-search-tree\obj\Debug\net8.0\ref\bst-binary-search-tree.dll

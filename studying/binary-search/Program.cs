@@ -31,7 +31,8 @@ static int BinarySearch(int[] list, int wantedItem)
 
     static void Main(string[] args)
     {
-        int[] list = { 2, 7, 16, 33, 39, 45, 58, 61, 83, 98 };
-        Console.WriteLine(BinarySearch(list, 83));
+        int[] list = {10, 23, 31, 45, 47, 48, 48, 49, 57, 60, 61, 67};
+        //int[] list = { 2, 7, 16, 33, 39, 45, 58, 61, 83, 98 };
+        Console.WriteLine(BinarySearch(list, 45));
     }
 }
