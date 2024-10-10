@@ -1,0 +1,15 @@
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\obj\Debug\net8.0\binary-search.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\obj\Debug\net8.0\binary-search.AssemblyInfoInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\obj\Debug\net8.0\binary-search.AssemblyInfo.cs
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\obj\Debug\net8.0\binary-search.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\obj\Debug\net8.0\binary-search.sourcelink.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\bin\Debug\net8.0\binary-search.exe
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\bin\Debug\net8.0\binary-search.deps.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\bin\Debug\net8.0\binary-search.runtimeconfig.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\bin\Debug\net8.0\binary-search.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\bin\Debug\net8.0\binary-search.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\obj\Debug\net8.0\binary-search.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\obj\Debug\net8.0\refint\binary-search.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\obj\Debug\net8.0\binary-search.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\obj\Debug\net8.0\binary-search.genruntimeconfig.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-search\obj\Debug\net8.0\ref\binary-search.dll

@@ -1,0 +1,15 @@
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\bin\Debug\net8.0\binary-tree.exe
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\bin\Debug\net8.0\binary-tree.deps.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\bin\Debug\net8.0\binary-tree.runtimeconfig.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\bin\Debug\net8.0\binary-tree.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\bin\Debug\net8.0\binary-tree.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\obj\Debug\net8.0\binary-tree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\obj\Debug\net8.0\binary-tree.AssemblyInfoInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\obj\Debug\net8.0\binary-tree.AssemblyInfo.cs
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\obj\Debug\net8.0\binary-tree.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\obj\Debug\net8.0\binary-tree.sourcelink.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\obj\Debug\net8.0\binary-tree.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\obj\Debug\net8.0\refint\binary-tree.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\obj\Debug\net8.0\binary-tree.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\obj\Debug\net8.0\binary-tree.genruntimeconfig.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\binary-tree\obj\Debug\net8.0\ref\binary-tree.dll
