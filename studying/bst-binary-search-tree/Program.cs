@@ -155,12 +155,12 @@ public class BTS
             Console.WriteLine("Elemento NÃO encontrado!");
             return null;
         }
-        if(actual.getId() == id)
+        if (actual.getId() == id)
         {
-            Console.WriteLine("Elemento encontrado!");
+            Console.WriteLine($"Elemento {actual.getId()} encontrado!");
             return actual;
         }
-        
+
         if (id < actual.getId())
         {
             return search(actual.getLeft(), id);
@@ -195,6 +195,6 @@ class Program
         a.insertBST(77, "elemento adicional");
 
         a.printElements();
-        //a.searchBST(59);
+        a.searchBST(59);
     }
 }

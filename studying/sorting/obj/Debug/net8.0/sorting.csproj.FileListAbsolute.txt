@@ -1,0 +1,15 @@
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\obj\Debug\net8.0\sorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\obj\Debug\net8.0\sorting.AssemblyInfoInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\obj\Debug\net8.0\sorting.AssemblyInfo.cs
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\obj\Debug\net8.0\sorting.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\obj\Debug\net8.0\sorting.sourcelink.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\bin\Debug\net8.0\sorting.exe
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\bin\Debug\net8.0\sorting.deps.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\bin\Debug\net8.0\sorting.runtimeconfig.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\bin\Debug\net8.0\sorting.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\bin\Debug\net8.0\sorting.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\obj\Debug\net8.0\sorting.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\obj\Debug\net8.0\refint\sorting.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\obj\Debug\net8.0\sorting.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\obj\Debug\net8.0\sorting.genruntimeconfig.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\sorting\obj\Debug\net8.0\ref\sorting.dll

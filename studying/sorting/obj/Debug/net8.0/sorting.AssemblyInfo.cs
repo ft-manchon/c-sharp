@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("binary-search")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("sorting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e2ad0942792dbb68ce15614c68c1fd9d31aca6d")]
-[assembly: System.Reflection.AssemblyProductAttribute("binary-search")]
-[assembly: System.Reflection.AssemblyTitleAttribute("binary-search")]
+[assembly: System.Reflection.AssemblyProductAttribute("sorting")]
+[assembly: System.Reflection.AssemblyTitleAttribute("sorting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

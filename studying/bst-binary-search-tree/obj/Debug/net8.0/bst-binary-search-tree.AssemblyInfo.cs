@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bst-binary-search-tree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc8cc936e544f019a4cba77d5ce660cbf6014f6b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e2ad0942792dbb68ce15614c68c1fd9d31aca6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("bst-binary-search-tree")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bst-binary-search-tree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
