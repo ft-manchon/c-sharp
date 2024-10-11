@@ -1,0 +1,15 @@
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\obj\Debug\net8.0\matrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\obj\Debug\net8.0\matrix.AssemblyInfoInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\obj\Debug\net8.0\matrix.AssemblyInfo.cs
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\obj\Debug\net8.0\matrix.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\obj\Debug\net8.0\matrix.sourcelink.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\bin\Debug\net8.0\matrix.exe
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\bin\Debug\net8.0\matrix.deps.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\bin\Debug\net8.0\matrix.runtimeconfig.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\bin\Debug\net8.0\matrix.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\bin\Debug\net8.0\matrix.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\obj\Debug\net8.0\matrix.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\obj\Debug\net8.0\refint\matrix.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\obj\Debug\net8.0\matrix.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\obj\Debug\net8.0\matrix.genruntimeconfig.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\matrix\obj\Debug\net8.0\ref\matrix.dll
