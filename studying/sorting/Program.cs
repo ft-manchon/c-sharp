@@ -73,14 +73,108 @@ class Program
         }
     }
 
-    static void MergeSort(int[] array)
+    static void MergeSort(int[] array, int start, int end)
     {
+        int middle;
 
+        if (start < end)
+        {
+            middle = (start + end) / 2;
+            MergeSort(array, start, middle);
+            MergeSort(array, middle + 1, end);
+            Merge(array, start, middle, end);
+        }
+    }
+    static void Merge(int[] array, int start, int middle, int end)
+    {
+        int s1 = middle - start + 1;
+        int s2 = end - middle;
+
+        int[] leftArray = new int[s1];
+        int[] rightArray = new int[s2];
+
+        for (int i = 0; i < s1; i++)
+        {
+            leftArray[i] = array[start + i];
+        }
+
+        for (int j = 0; j < s2; j++)
+        {
+            rightArray[j] = array[middle + 1 + j];
+        }
+
+        int startIndex = 0, endIndex = 0;
+        int mergedIndex = start;
+
+        while (startIndex < s1 && endIndex < s2)
+        {
+            if (leftArray[startIndex] <= rightArray[endIndex])
+            {
+                array[mergedIndex] = leftArray[startIndex];
+                startIndex++;
+            }
+            else
+            {
+                array[mergedIndex] = rightArray[endIndex];
+                endIndex++;
+            }
+            mergedIndex++;
+        }
+
+        while (startIndex < s1)
+        {
+            array[mergedIndex] = leftArray[startIndex];
+            startIndex++;
+            mergedIndex++;
+        }
+
+        while (endIndex < s2)
+        {
+            array[mergedIndex] = rightArray[endIndex];
+            endIndex++;
+            mergedIndex++;
+        }
     }
 
-    static void QuickSort(int[] array)
+    static void QuickSort(int[] array, int start, int end)
     {
+        if (start < end)
+        {
+            int pivot = Quick(array, start, end);
+            QuickSort(array, start, pivot - 1);
+            QuickSort(array, pivot + 1, end);
+        }
+    }
 
+    static int Quick(int[] array, int start, int end)
+    {
+        int left = start;
+        int right = end;
+        int pivot = array[start];
+
+        while (left < right)
+        {
+            while (left <= end && array[left] <= pivot)
+            {
+                left++;
+            }
+
+            while (right >= 0 && array[right] > pivot)
+            {
+                right--;
+            }
+
+            if (left < right)
+            {
+                int aux = array[left];
+                array[left] = array[right];
+                array[right] = aux;
+            }
+        }
+
+        array[start] = array[right];
+        array[right] = pivot;
+        return right;
     }
 
     static void Main(string[] args)
@@ -89,9 +183,9 @@ class Program
         Console.WriteLine("Array original: " + string.Join(",", array));
         //BubbleSort(array);
         //SelectionSort(array);
-        InsertionSort(array);;
-        //MergeSort(array);
-        //QuickSort(array);
+        //InsertionSort(array); ;
+        //MergeSort(array, 0, array.Length - 1);
+        QuickSort(array, 0, array.Length - 1);
         Console.WriteLine("Array ordenado: " + string.Join(",", array));
     }
 }
