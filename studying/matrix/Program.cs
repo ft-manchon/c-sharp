@@ -7,6 +7,9 @@ public class CampoMinado
     static int[,] campo = new int[qtdLinhas, qtdColunas];
     static int[,] jogo = new int[qtdLinhas, qtdColunas];
 
+    static bool problemaArquivo = false;
+    static string caminho_absoluto = "..\\..\\..\\..\\..\\..\\campoMinado.txt";
+
     public CampoMinado()
     {
         jogar();
@@ -42,49 +45,88 @@ public class CampoMinado
         }
         while (bombas < 5);
 
-        bool fimDeJogo = false;
-
-        do
+        try
         {
-            for (int l = 0; l < campo.GetLength(0); l++)
+            StreamReader sr = new StreamReader(caminho_absoluto);
+            string linha_arq = sr.ReadLine();
+            int linha_mtz = 0;
+            int coluna_mtz = 0;
+
+            while (linha_arq != null || linha_mtz < 10)
             {
-                for (int c = 0; c < campo.GetLength(1); c++)
+                foreach (var numero in linha_arq.Split(','))
                 {
-                    Console.Write(string.Format("{0} ", campo[l, c]));
+                    int num;
+
+                    if (int.TryParse(numero, out num))
+                    {
+                        campo[linha_mtz, coluna_mtz] = num;
+                        jogo[linha_mtz, coluna_mtz] = -1;
+                        coluna_mtz++;
+                    }
                 }
-                Console.WriteLine();
+                linha_arq = sr.ReadLine();
+                coluna_mtz = 0;
+                linha_mtz++;
             }
+            sr.Close();
+        }
+        catch
+        {
+            Console.WriteLine("Ocorreu um problema de leitura do arquivo!");
+            problemaArquivo = true;
+        }
 
-            Console.WriteLine("Selecione uma linha [1-10]: ");
-            linha = Convert.ToInt32(Console.ReadLine()) - 1;
-            Console.WriteLine("Selecione uma coluna [1-10]: ");
-            coluna = Convert.ToInt32(Console.ReadLine()) - 1;
+        if (!problemaArquivo)
+        {
+            bool fimDeJogo = false;
+            bool vitoria = false;
 
-            switch (campo[linha, coluna])
+            do
             {
-                case 0:
-                    jogo[linha, coluna] = 0;
-                    Console.WriteLine("Continue tentando.");
+                for (int l = 0; l < campo.GetLength(0); l++)
+                {
+                    for (int c = 0; c < campo.GetLength(1); c++)
+                    {
+                        Console.Write(string.Format("{0} ", campo[l, c]));
+                    }
                     Console.WriteLine();
-                    break;
-                case 1:
-                    jogo[linha, coluna] = 1;
-                    Console.WriteLine("BOOOOM. Você perdeu.");
-                    Console.WriteLine();
-                    break;
-                default:
-                    jogo[linha, coluna] = 2;
-                    Console.WriteLine("Parabéns! Você ganhou!");
-                    Console.WriteLine();
-                    break;
-            }
-        } while (!fimDeJogo);
+                }
+
+                Console.WriteLine("Selecione uma linha [1-10]: ");
+                linha = Convert.ToInt32(Console.ReadLine()) - 1;
+                Console.WriteLine("Selecione uma coluna [1-10]: ");
+                coluna = Convert.ToInt32(Console.ReadLine()) - 1;
+
+                switch (campo[linha, coluna])
+                {
+                    case 0:
+                        jogo[linha, coluna] = 0;
+                        Console.WriteLine("Continue tentando.");
+                        Console.WriteLine();
+                        break;
+                    case 1:
+                        jogo[linha, coluna] = 1;
+                        Console.WriteLine("BOOOOM. Você perdeu.");
+                        Console.WriteLine();
+                        fimDeJogo = true;
+                        break;
+                    default:
+                        jogo[linha, coluna] = 2;
+                        Console.WriteLine("Parabéns! Você ganhou!");
+                        Console.WriteLine();
+                        fimDeJogo = true;
+                        vitoria = true;
+                        break;
+                }
+            } while (!fimDeJogo);
+        }
     }
 }
 
 public class JogoDaVelha
 {
-    static string[,] tabuleiro = new string[3,3];
+    static string[,] tabuleiro = new string[3, 3];
     static int linha;
     static int coluna;
     static bool fimDeJogo = false;
@@ -100,15 +142,15 @@ public class JogoDaVelha
     {
         for (int l = 0; l < 3; l++)
         {
-            for(int c = 0; c < 3; c++)
+            for (int c = 0; c < 3; c++)
                 tabuleiro[l, c] = "";
         }
 
-        while(!fimDeJogo)
+        while (!fimDeJogo)
         {
             imprimirTabuleiro(tabuleiro);
 
-            if(jogador == 1)
+            if (jogador == 1)
                 Console.WriteLine("Jogador 1: ");
             else
                 Console.WriteLine("Jogador 2: ");
@@ -122,7 +164,7 @@ public class JogoDaVelha
 
             fimDeJogo = conferirJogada(tabuleiro, linha, coluna, jogador, jogada);
 
-            if(jogador == 1)
+            if (jogador == 1)
                 jogador = 2;
             else
                 jogador = 1;
@@ -135,12 +177,12 @@ public class JogoDaVelha
         {
             for (int c = 0; c < 3; c++)
             {
-                Console.Write(string.Format(" {0} ", tabuleiro[l,c]));
-                if(c < 2)
+                Console.Write(string.Format(" {0} ", tabuleiro[l, c]));
+                if (c < 2)
                     Console.Write("|");
             }
             Console.WriteLine();
-            if(l < 2)
+            if (l < 2)
                 Console.Write("--------");
             Console.WriteLine();
         }
@@ -150,12 +192,12 @@ public class JogoDaVelha
     {
         bool trinca = false;
 
-        if(jogador == 1)
+        if (jogador == 1)
             tabuleiro[linha, coluna] = "X";
         else
             tabuleiro[linha, coluna] = "O";
 
-        for(int c = 0; c < 3; c++)
+        for (int c = 0; c < 3; c++)
         {
             if (tabuleiro[linha, c] != tabuleiro[linha, coluna])
                 break;
@@ -163,24 +205,24 @@ public class JogoDaVelha
                 trinca = true;
         }
 
-        if(!trinca)
+        if (!trinca)
         {
             for (int l = 0; l < 3; l++)
             {
-                if(tabuleiro[l, coluna] != tabuleiro[linha, coluna])
+                if (tabuleiro[l, coluna] != tabuleiro[linha, coluna])
                     break;
                 if (l == 2)
                     trinca = true;
             }
         }
 
-        if(!trinca)
+        if (!trinca)
         {
-            if(linha == coluna)
+            if (linha == coluna)
             {
                 for (int cont = 0; cont < 3; cont++)
                 {
-                    if(tabuleiro[cont, cont] != tabuleiro[linha, coluna])
+                    if (tabuleiro[cont, cont] != tabuleiro[linha, coluna])
                         break;
                     if (cont == 2)
                         trinca = true;
@@ -188,13 +230,13 @@ public class JogoDaVelha
             }
         }
 
-        if(!trinca)
+        if (!trinca)
         {
-            if (linha+coluna == 3 - 1)
+            if (linha + coluna == 3 - 1)
             {
                 for (int cont = 0; cont < 3; cont++)
                 {
-                    if(tabuleiro[cont, 3-cont-1] != tabuleiro[linha, coluna])
+                    if (tabuleiro[cont, 3 - cont - 1] != tabuleiro[linha, coluna])
                         break;
                     if (cont == 2)
                         trinca = true;
@@ -210,7 +252,7 @@ public class JogoDaVelha
             return true;
         }
 
-        if(jogada == 9)
+        if (jogada == 9)
         {
             Console.WriteLine();
             imprimirTabuleiro(tabuleiro);
@@ -229,7 +271,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // CampoMinado campoMinado = new CampoMinado();
-        JogoDaVelha jogoDaVelha = new JogoDaVelha();
+        CampoMinado campoMinado = new CampoMinado();
+        // JogoDaVelha jogoDaVelha = new JogoDaVelha();
     }
 }

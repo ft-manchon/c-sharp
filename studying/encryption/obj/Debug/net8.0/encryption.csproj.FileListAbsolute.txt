@@ -1,0 +1,15 @@
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\obj\Debug\net8.0\encryption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\obj\Debug\net8.0\encryption.AssemblyInfoInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\obj\Debug\net8.0\encryption.AssemblyInfo.cs
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\obj\Debug\net8.0\encryption.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\obj\Debug\net8.0\encryption.sourcelink.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\bin\Debug\net8.0\encryption.exe
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\bin\Debug\net8.0\encryption.deps.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\bin\Debug\net8.0\encryption.runtimeconfig.json
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\bin\Debug\net8.0\encryption.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\bin\Debug\net8.0\encryption.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\obj\Debug\net8.0\encryption.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\obj\Debug\net8.0\refint\encryption.dll
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\obj\Debug\net8.0\encryption.pdb
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\obj\Debug\net8.0\encryption.genruntimeconfig.cache
+C:\Users\ferna\Documents\programacao\ft-manchon\c-sharp\studying\encryption\obj\Debug\net8.0\ref\encryption.dll

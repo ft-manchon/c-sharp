@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("matrix")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("encryption")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb20f00ba737ee7d40c4da50a1176447de84992e")]
-[assembly: System.Reflection.AssemblyProductAttribute("matrix")]
-[assembly: System.Reflection.AssemblyTitleAttribute("matrix")]
+[assembly: System.Reflection.AssemblyProductAttribute("encryption")]
+[assembly: System.Reflection.AssemblyTitleAttribute("encryption")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
